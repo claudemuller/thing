@@ -1,0 +1,29 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "codelldb",
+			"request": "launch",
+			"name": "game-sdl",
+			"preLaunchTask": "compile-sdl",
+			"postDebugTask": "clean",
+			"expressions": "native",
+			"program": "${workspaceFolder}/bin/game-sdl",
+			"cwd": "${workspaceFolder}",
+			"runInTerminal": false,
+			"stopAtEntry": false
+		},
+		{
+			"type": "codelldb",
+			"request": "launch",
+			"name": "game-lin",
+			"preLaunchTask": "compile-lin",
+			"postDebugTask": "clean",
+			"expressions": "native",
+			"program": "${workspaceFolder}/bin/game-lin",
+			"cwd": "${workspaceFolder}",
+			"runInTerminal": false,
+			"stopAtEntry": false
+		}
+	]
+}

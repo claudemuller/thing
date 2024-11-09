@@ -1,0 +1,36 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-Wmissing-declarations",
+      "-I./libs/",
+      "-o",
+      "./bin/game-lin",
+      "./src/game.cpp"
+    ],
+    "directory": "/home/lukefilewalker/repos/game",
+    "file": "/home/lukefilewalker/repos/game/src/game.cpp",
+    "output": "/home/lukefilewalker/repos/game/bin/game-lin"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-Wmissing-declarations",
+      "-I./libs/",
+      "-o",
+      "./bin/game-lin",
+      "./src/lin_main.cpp"
+    ],
+    "directory": "/home/lukefilewalker/repos/game",
+    "file": "/home/lukefilewalker/repos/game/src/lin_main.cpp",
+    "output": "/home/lukefilewalker/repos/game/bin/game-lin"
+  }
+]
