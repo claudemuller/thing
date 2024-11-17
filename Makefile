@@ -40,6 +40,8 @@ ifeq ($(shell uname -s),Darwin)
 	DBG_BIN = lldb
 endif
 
+all: build
+
 build: bin-dir
 	$(CC) $(CFLAGS) $(INCS) $(SRC) -o $(BIN)-$(PLATFORM) $(LDFLAGS) $(LIBS) 
 
